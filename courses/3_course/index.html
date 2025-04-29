@@ -7611,27 +7611,17 @@ all of MD as it is not optimized for dense, information rich UIs.
     <div class="reveal">
       <div class="slides">
         <section>
-          <section>
-            <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-              <div class="jp-Cell-inputWrapper" tabindex="0">
-                <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-                </div>
-                <div class="jp-InputArea jp-Cell-inputArea">
-                  <div class="jp-InputPrompt jp-InputArea-prompt">
-                  </div>
-                  <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h1>
-                      <center> Generative AI in Risk and Finance</center>
-                    </h1>
-                    <h3>
-                      <center> Developing a Risk Agent</center>
-                    </h3>
-                    <center> <small>by <a href="https://juliandoerr.com">Julian Dörr</a></small>
-                    </center>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <section data-background="img/background.jpg">
+            <!-- <div class=".slide-background-content"> -->
+            <h1 style="color: white;">
+              <center> Generative AI in Risk and Finance</center>
+            </h1>
+            <h3 style="color: white">
+              <center> Developing a Risk Agent</center>
+            </h3>
+            <center> <small style="color: white;">by <a style="color: white;" href="https://juliandoerr.com">Julian Dörr</a></small>
+            </center>
+            <!-- </div> -->
           </section>
         </section>
         <section>
@@ -8126,7 +8116,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <h2 id="Developing-a-Mulit-Document-Risk-Agent">Developing a Mulit-Document Risk Agent<a class="anchor-link"
-                        href="#Developing-a-Mulit-Document-Risk-Agent">¶</a></h2>
+                        href="#Developing-a-Mulit-Document-Risk-Agent">¶</a>
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -8141,7 +8132,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                     </div>
                     <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                       <p>Moving on, we will primarily work with <a href="https://docs.llamaindex.ai/en/stable/">LlamaIndex</a> and <a
-                          href="https://www.langchain.com/">LangChain</a> which are both leading Python frameworks for building LLM-powered workflows.</p>
+                          href="https://www.langchain.com/">LangChain</a>
+                        which are both leading Python frameworks for building LLM-powered workflows.</p>
                       <img alt="LangChain and LlamaIndex" src="img/langchain_llamaindex.png" width="800" />
                       <p><small>Image source: <a href="https://superwise.ai/blog/lets-talk-about-llamaindex-and-langchain">Superwise</a></small></p>
                     </div>
@@ -11086,11 +11078,10 @@ Specific examples from DAX 40 companies include Airbus, which highlights operati
         progress: true,
         history: true,
         transition: "convex",
-        slideNumber: "",
         plugins: [RevealNotes],
         width: 960,
         height: 700,
-
+        slideNumber: 'c/t'
       });
 
       var update = function (event) {
