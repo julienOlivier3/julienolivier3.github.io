@@ -7,7 +7,7 @@
   <meta content="chrome=1" http-equiv="X-UA-Compatible" />
   <meta content="yes" name="apple-mobile-web-app-capable" />
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
-  <title>day3_genai slides</title>
+  <title>genai slides</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
   <script type="module">
@@ -7612,16 +7612,14 @@ all of MD as it is not optimized for dense, information rich UIs.
       <div class="slides">
         <section>
           <section data-background="img/background.jpg">
-            <!-- <div class=".slide-background-content"> -->
             <h1 style="color: white;">
-              <center> Generative AI in Risk and Finance</center>
+              <center> Generative AI in Risk and Finance </center>
             </h1>
             <h3 style="color: white">
-              <center> Developing a Risk Agent</center>
+              <center> Developing a Risk Agent </center>
             </h3>
             <center> <small style="color: white;">by <a style="color: white;" href="https://juliandoerr.com">Julian Dörr</a></small>
             </center>
-            <!-- </div> -->
           </section>
         </section>
         <section>
@@ -7634,7 +7632,23 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h2 id="About-this-Course">About this Course<a class="anchor-link" href="#About-this-Course">¶</a></h2>
+                    <h2 id="About-this-Course"><a id="toc1_"></a>About this Course<a class="anchor-link" href="#About-this-Course">¶</a></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fragment">
+              <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+                <div class="jp-Cell-inputWrapper" tabindex="0">
+                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                  </div>
+                  <div class="jp-InputArea jp-Cell-inputArea">
+                    <div class="jp-InputPrompt jp-InputArea-prompt">
+                    </div>
+                    <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+                      <p>You will find all course material and setup instructions in the following <a
+                          href="https://github.com/julienOlivier3/risk-analytics/tree/main/3_genai">repository</a>.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -7649,7 +7663,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h3 id="What-you-will-learn">What you will learn<a class="anchor-link" href="#What-you-will-learn">¶</a></h3>
+                    <h3 id="What-you-will-learn"><a id="toc1_1_"></a>What you will learn<a class="anchor-link" href="#What-you-will-learn">¶</a></h3>
                   </div>
                 </div>
               </div>
@@ -7723,8 +7737,6 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="fragment">
               <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
                 <div class="jp-Cell-inputWrapper" tabindex="0">
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7753,7 +7765,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h2 id="What-is-Generative-AI?">What is Generative AI?<a class="anchor-link" href="#What-is-Generative-AI?">¶</a></h2>
+                    <h2 id="-What-is-Generative-AI?"><a id="toc2_"></a> What is Generative AI?<a class="anchor-link" href="#-What-is-Generative-AI?">¶</a></h2>
                   </div>
                 </div>
               </div>
@@ -7785,8 +7797,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>Generative AI is fundamentally based on deep learning methods, but it distinguishes itself by <em>creating</em> new content, such as language.</p>
-                    <p><img alt="AI, ML, DL, NLP &amp; GenAI" src="img/ai_ml_dl_nlp_genai.png" style="width: 55vw; min-width: 330px;" /></p>
-                    <p><small>Image source: Illustration by the author</small></p>
+                    <p><img alt="AI, ML, DL, NLP &amp; GenAI" src="img/ai_ml_dl_nlp_genai.png" style="width: 45vw; min-width: 250px;" /></p>
+                    <p><small>Image source: Author</small></p>
                   </div>
                 </div>
               </div>
@@ -7802,7 +7814,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>
-                      <font color="black" style="background-color:#f0fcec"><b>Artificial Intelligence (AI)</b></font>: <strong>The Broad Umbrella</strong>
+                      <font color="#58e4d4"><b>Artificial Intelligence (AI)</b></font>: <strong>The Broad Umbrella</strong>
                     </p>
                     <p>AI is the overarching field that encompasses all technologies and systems designed to <strong>simulate human intelligence</strong>. This includes tasks like
                       reasoning, problem-solving, learning, and decision-making.</p>
@@ -7820,7 +7832,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                     </div>
                     <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                       <p>
-                        <font color="#b8f4bc"><b>Machine Learning (ML)</b></font>: <strong>The Foundation</strong>
+                        <font color="#20b49c"><b>Machine Learning (ML)</b></font>: <strong>The Foundation</strong>
                       </p>
                       <p>Machine learning is a subset of AI that enables systems to <strong>learn from data</strong> and improve their performance over time without being
                         explicitly programmed. ML algorithms identify patterns in data and use these patterns to <strong>make predictions or decisions</strong>.</p>
@@ -7839,7 +7851,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                     </div>
                     <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                       <p>
-                        <font color="#70dc7c"><b>Deep Learning (DL)</b></font>: <strong>The Engine Behind Generative AI</strong>
+                        <font color="#086c5c"><b>Deep Learning (DL)</b></font>: <strong>The Engine Behind Generative AI</strong>
                       </p>
                       <p>Deep learning is a specialized branch of ML that uses <strong>artificial neural networks</strong> inspired by the human brain. These networks are
                         particularly effective at processing large amounts of <strong>unstructured data</strong>, such as images, text, and audio.</p>
@@ -7858,7 +7870,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                     </div>
                     <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                       <p>
-                        <font color="#58bc5c"><b>Natural Language Processing (NLP)</b></font>: <strong>A Key Application Area</strong>
+                        <font color="#08544c"><b>Natural Language Processing (NLP)</b></font>: <strong>A Key Application Area</strong>
                       </p>
                       <p>NLP is a field within AI focused on <strong>enabling machines to "understand", "interpret", and generate human language</strong>. It powers applications
                         like chatbots, translation tools, and sentiment analysis.</p>
@@ -7878,7 +7890,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>
-                      <font color="#489c4c"><b>Generative AI (GenAI)</b></font>:
+                      <font color="#08241c"><b>Generative AI (GenAI)</b></font>:
                     </p>
                     <p>GenAI is a specialized and creative branch of AI that <strong>leverages deep learning to generate new content</strong>. While it shares foundational
                       techniques with deep learning, its focus on creation sets it apart. It also overlaps with NLP in language-based applications, but its scope extends beyond
@@ -7899,8 +7911,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h2 id="Application-of-Generative-AI-in-Risk-Management">Application of Generative AI in Risk Management<a class="anchor-link"
-                        href="#Application-of-Generative-AI-in-Risk-Management">¶</a></h2>
+                    <h2 id="-Application-of-Generative-AI-in-Risk-Management"><a id="toc3_"></a> Application of Generative AI in Risk Management<a class="anchor-link"
+                        href="#-Application-of-Generative-AI-in-Risk-Management">¶</a></h2>
                   </div>
                 </div>
               </div>
@@ -7932,7 +7944,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>Generative AI could create additional value potential above what could be unlocked by traditional AI and analytics.</p>
-                    <p><img alt="GenAI Impact" src="img/genai_impact.png" style="width: 55vw; min-width: 330px;" /></p>
+                    <p><img alt="GenAI Impact" src="img/genai_impact.png" style="width: 45vw; min-width: 250px;" /></p>
                     <p><small>Image source: <a
                           href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#business-value">McKinsey</a></small>
                     </p>
@@ -7951,7 +7963,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>Generative AI use cases will have different impacts on business functions across industries with Risk and Legal being an important field in Banking.</p>
-                    <p><img alt="GenAI Impact in different Roles and Industries" src="img/genai_industry.png" style="width: 50vw; min-width: 330px;" /></p>
+                    <p><img alt="GenAI Impact in different Roles and Industries" src="img/genai_industry.png" style="width: 40vw; min-width: 250px;" /></p>
                     <p><small>Image source: <a
                           href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#business-value">McKinsey</a></small>
                     </p>
@@ -7971,15 +7983,13 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>Most impactful GenAI uses cases in Finance and Risk have been identified and comprise tasks such as forecasting and budget planning, reporting creation and
                       policy review.</p>
-                    <p><img alt="GenAI Use Cases" src="img/genai_use_cases.png" style="width: 55vw; min-width: 330px;" /></p>
+                    <p><img alt="GenAI Use Cases" src="img/genai_use_cases.png" style="width: 45vw; min-width: 250px;" /></p>
                     <p><small>Image source: <a href="https://www.gartner.com/en/finance/topics/finance-ai">Gardner</a></small></p>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-        </section>
-        <section>
           <section>
             <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
               <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7989,7 +7999,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h3 id="A-GenAI-PoC:-Risk-Agent">A GenAI PoC: Risk Agent<a class="anchor-link" href="#A-GenAI-PoC:-Risk-Agent">¶</a></h3>
+                    <h3 id="-A-GenAI-PoC:-Risk-Agent"><a id="toc3_1_"></a> A GenAI PoC: Risk Agent<a class="anchor-link" href="#-A-GenAI-PoC:-Risk-Agent">¶</a></h3>
                   </div>
                 </div>
               </div>
@@ -8097,8 +8107,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
                     <p>A RAG system enhances an LLM's knowledge with up-to-date domain information from a document base, while an agentic RAG system allows it to independently
                       decide which information sources to retrieve.</p>
-                    <img alt="Agentic RAG" src="img/llm_rag_agentic_rag.png" width="1000" />
-                    <p><small>Image source: Illustration by the author</small></p>
+                    <img alt="Agentic RAG" src="img/llm_rag_agentic_rag.png" width="800" />
+                    <p><small>Image source: Illustration Author</small></p>
                   </div>
                 </div>
               </div>
@@ -8115,28 +8125,24 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h2 id="Developing-a-Mulit-Document-Risk-Agent">Developing a Mulit-Document Risk Agent<a class="anchor-link"
-                        href="#Developing-a-Mulit-Document-Risk-Agent">¶</a>
-                    </h2>
+                    <h2 id="-Developing-a-Mulit-Document-Risk-Agent"><a id="toc4_"></a> Developing a Mulit-Document Risk Agent<a class="anchor-link"
+                        href="#-Developing-a-Mulit-Document-Risk-Agent">¶</a></h2>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="fragment">
-              <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-                <div class="jp-Cell-inputWrapper" tabindex="0">
-                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+            <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+              <div class="jp-Cell-inputWrapper" tabindex="0">
+                <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                </div>
+                <div class="jp-InputArea jp-Cell-inputArea">
+                  <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
-                  <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">
-                    </div>
-                    <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                      <p>Moving on, we will primarily work with <a href="https://docs.llamaindex.ai/en/stable/">LlamaIndex</a> and <a
-                          href="https://www.langchain.com/">LangChain</a>
-                        which are both leading Python frameworks for building LLM-powered workflows.</p>
-                      <img alt="LangChain and LlamaIndex" src="img/langchain_llamaindex.png" width="800" />
-                      <p><small>Image source: <a href="https://superwise.ai/blog/lets-talk-about-llamaindex-and-langchain">Superwise</a></small></p>
-                    </div>
+                  <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+                    <p>Moving on, we will primarily work with <a href="https://docs.llamaindex.ai/en/stable/">LlamaIndex</a> and <a href="https://www.langchain.com/">LangChain</a>
+                      which are both leading Python frameworks for building LLM-powered workflows.</p>
+                    <img alt="LangChain and LlamaIndex" src="img/langchain_llamaindex.png" width="800" />
+                    <p><small>Image source: <a href="https://superwise.ai/blog/lets-talk-about-llamaindex-and-langchain">Superwise</a></small></p>
                   </div>
                 </div>
               </div>
@@ -8151,7 +8157,8 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h3 id="Build-a-document-vector-store">Build a document vector store<a class="anchor-link" href="#Build-a-document-vector-store">¶</a></h3>
+                    <h3 id="-Build-a-document-vector-store"><a id="toc4_1_"></a> Build a document vector store<a class="anchor-link" href="#-Build-a-document-vector-store">¶</a>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -8208,8 +8215,6 @@ all of MD as it is not optimized for dense, information rich UIs.
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="fragment">
               <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
                 <div class="jp-Cell-inputWrapper" tabindex="0">
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8245,7 +8250,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Parse-documents">Parse documents<a class="anchor-link" href="#Parse-documents">¶</a></h4>
+                    <h4 id="-Parse-documents"><a id="toc4_1_1_"></a> Parse documents<a class="anchor-link" href="#-Parse-documents">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -8272,7 +8277,7 @@ all of MD as it is not optimized for dense, information rich UIs.
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8328,7 +8333,7 @@ zalando_2023.pdf
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8397,7 +8402,7 @@ zalando_2023.pdf
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8507,14 +8512,18 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
                           <pre><span></span><span class="n">pre_process_dict</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">"adidas"</span><span class="p">:</span> <span class="p">{</span>
         <span class="s2">"pages"</span><span class="p">:</span> <span class="nb">range</span><span class="p">(</span><span class="mi">165</span><span class="p">,</span> <span class="mi">187</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
-        <span class="s2">"string_to_remove"</span><span class="p">:</span> <span class="s2">"1 2 3 4 5 </span><span class="se">\n</span><span class="s2">T O  O U R SHA REHO L D ERS  GRO U P  MAN A GEMEN T  REP O RT – </span><span class="se">\n</span><span class="s2">O U R CO MPA N Y </span><span class="se">\n</span><span class="s2">GRO U P  MAN A GEMEN T  REP O RT – </span><span class="se">\n</span><span class="s2">F I N A N CI AL  REVI EW  </span><span class="se">\n</span><span class="s2">CO N SO L I DA T ED  FI N AN CI A L </span><span class="se">\n</span><span class="s2">ST A T EMEN T S </span><span class="se">\n</span><span class="s2">A D D I T I ON A L I N FO RMA T I ON </span><span class="se">\n</span><span class="s2"> </span><span class="se">\n\\</span><span class="s2">d{1,3} </span><span class="se">\n</span><span class="s2">    </span><span class="se">\n</span><span class="s2">    </span><span class="se">\n</span><span class="s2"> A N N U A L  R E P O R T  2 0 2 3"</span><span class="p">,</span>
+        <span class="s2">"string_to_remove"</span><span class="p">:</span> <span class="s2">"""1 2 3 4 5 </span><span class="se">\n</span><span class="s2">T O  O U R SHA REHO L D ERS  GRO U P  MAN A GEMEN T</span>
+<span class="s2">            REP O RT – </span><span class="se">\n</span><span class="s2">O U R CO MPA N Y </span><span class="se">\n</span><span class="s2">GRO U P  MAN A GEMEN T  REP O RT – </span><span class="se">\n</span><span class="s2">F I N A N CI AL</span>
+<span class="s2">                REVI EW  </span><span class="se">\n</span><span class="s2">CO N SO L I DA T ED  FI N AN CI A L </span><span class="se">\n</span><span class="s2">ST A T EMEN T S </span><span class="se">\n</span>
+<span class="s2">                A D D I T I ON A L I N FO RMA T I ON </span><span class="se">\n</span><span class="s2"> </span><span class="se">\n\\</span><span class="s2">d{1,3} </span><span class="se">\n</span><span class="s2">    </span><span class="se">\n</span>
+<span class="s2">                        </span><span class="se">\n</span><span class="s2"> A N N U A L  R E P O R T  2 0 2 3"""</span><span class="p">,</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </pre>
@@ -8531,7 +8540,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8569,7 +8578,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Chunk-documents">Chunk documents<a class="anchor-link" href="#Chunk-documents">¶</a></h4>
+                    <h4 id="-Chunk-documents"><a id="toc4_1_2_"></a> Chunk documents<a class="anchor-link" href="#-Chunk-documents">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -8681,7 +8690,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8706,7 +8715,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8722,7 +8731,7 @@ take and is linked to the company's liquidity targets.</pre>
                   </div>
                   <div class="jp-OutputArea jp-Cell-outputArea">
                     <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-                      <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
+                      <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
                       <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
                         <pre>67</pre>
                       </div>
@@ -8745,6 +8754,42 @@ take and is linked to the company's liquidity targets.</pre>
                   </div>
                 </div>
               </div>
+              <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+                <div class="jp-Cell-inputWrapper" tabindex="0">
+                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                  </div>
+                  <div class="jp-InputArea jp-Cell-inputArea">
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+                      <div class="cm-editor cm-s-jupyter">
+                        <div class="highlight hl-ipython3">
+                          <pre><span></span><span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">node</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">chunks</span><span class="p">[:</span><span class="mi">3</span><span class="p">]):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Node </span><span class="si">{</span><span class="n">index</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> </span><span class="n">node</span><span class="o">.</span><span class="n">text</span><span class="p">[:</span><span class="mi">200</span><span class="p">])</span><span class="si">}</span><span class="s2"> ...</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+</pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="jp-Cell-outputWrapper">
+                  <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+                  </div>
+                  <div class="jp-OutputArea jp-Cell-outputArea">
+                    <div class="jp-OutputArea-child">
+                      <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+                      <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+                        <pre>Node 0: Risk and Opportunity Report In order to remain competitive and ensure sustainable success, adidas consciously takes risks and continuously explores and develops opportunities. Our risk and opportuni ...
+
+Node 1: Risk and opportunity management system The Executive Board has overall responsibility for establishing a risk and opportunity management system that ensures comprehensive and consistent management o ...
+
+Node 2: Our risk and opportunity management system is based on frameworks for enterprise risk management and internal controls developed and published by the Committee of Sponsoring Organizations of the Tre ...
+
+</pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section>
@@ -8756,7 +8801,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Vectorize-chunks">Vectorize chunks<a class="anchor-link" href="#Vectorize-chunks">¶</a></h4>
+                    <h4 id="-Vectorize-chunks"><a id="toc4_1_3_"></a> Vectorize chunks<a class="anchor-link" href="#-Vectorize-chunks">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -8799,7 +8844,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8823,7 +8868,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8842,7 +8887,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8858,7 +8903,7 @@ take and is linked to the company's liquidity targets.</pre>
                   </div>
                   <div class="jp-OutputArea jp-Cell-outputArea">
                     <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-                      <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
+                      <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
                       <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
                         <pre>384</pre>
                       </div>
@@ -8922,7 +8967,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -8983,19 +9028,39 @@ take and is linked to the company's liquidity targets.</pre>
               </div>
             </div>
             <div class="fragment">
+              <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+                <div class="jp-Cell-inputWrapper" tabindex="0">
+                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                  </div>
+                  <div class="jp-InputArea jp-Cell-inputArea">
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+                    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+                      <div class="cm-editor cm-s-jupyter">
+                        <div class="highlight hl-ipython3">
+                          <pre><span></span><span class="n">context</span> <span class="o">=</span> <span class="n">vector_store</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
+    <span class="n">query</span><span class="o">=</span><span class="s2">"What is Adidas doing to mitigate climate change related risks?"</span><span class="p">,</span> 
+    <span class="n">search_type</span><span class="o">=</span><span class="s2">"similarity"</span><span class="p">,</span> 
+    <span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fragment">
               <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
                 <div class="jp-Cell-inputWrapper" tabindex="0">
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
-                          <pre><span></span><span class="n">vector_store</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
-    <span class="n">query</span><span class="o">=</span><span class="s2">"What is Adidas doing to mitigate climate change related risks?"</span><span class="p">,</span> 
-    <span class="n">search_type</span><span class="o">=</span><span class="s2">"similarity"</span><span class="p">,</span> 
-    <span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+                          <pre><span></span><span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">document</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">context</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Document </span><span class="si">{</span><span class="n">index</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> </span><span class="n">document</span><span class="o">.</span><span class="n">page_content</span><span class="p">[:</span><span class="mi">200</span><span class="p">])</span><span class="si">}</span><span class="s2"> ...</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 </pre>
                         </div>
                       </div>
@@ -9006,12 +9071,16 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
                   </div>
                   <div class="jp-OutputArea jp-Cell-outputArea">
-                    <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-                      <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-                      <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-                        <pre>[Document(id='32b53e34-0210-4f2d-9c99-04fcb297a471', metadata={'company': 'adidas', 'year': 2023}, page_content='This framework applies to all adidas businesses \nworldwide and also sets our expectations of third-party business partners for managing personal\n \ninformation for or on behalf of adidas. Our Global Privacy Officer and the Global Privacy department drive \nthe operational establishment of the framework and monitoring capabilities to track and report its \nimplementation. During the implementation, they are continuously providing further implementation \nguidance and training. \nHazard risks \nAs climate change intensifies, the likelihood and intensity of natural disasters such as storms, floods, \ndroughts, pandemics, or heat waves increases, and so does adidas’ potential risk. In addition, our business \nactivities could be impacted by port congestions, strikes, riots, armed conflicts, or terrorist attacks. All of \nthe above could damage our offices, stores, or distribution centers or disrupt our operational processes \n(e.g., sourcing, logistics) leading to loss of sales, higher cost, and a decrease in profitability. \nTo manage and mitigate these risks, we continuously monitor potential threats and have implemented \nbusiness continuity plans including but not limited to fallback solutions for transportation, dynamic \ncapacity management of containers and carriers, and reallocation of production.'),
- Document(id='368ec3ab-2c55-4825-a5e8-c3f7b7e37a0d', metadata={'company': 'adidas', 'year': 2023}, page_content='To \nreduce supplier dependency, the company follows a strategy of diversification. In this context, adidas \nworks with a broad network of suppliers in different countries and, for the vast majority of its products, \ndoes not have a single-sourcing model. \nCompliance risks \nAs a globally operating company, adidas is subject to various laws and regulations. Non-compliance with \nsuch laws and regulations could lead to penalties and fines and cause reputational damage. For example, \nnon-compliance with laws and regulations concerning data protection and privacy, such as the EU General \nData Protection Regulation (GDPR), may result in substantial fines. In addition, publication of failure to \ncomply with data protection and privacy regulations could cause reputational damage and result in a loss \nof consumer trust in our brands. We also face the risk that members of top management as well as our \nemployees breach rules and standards that guide appropriate and responsible business behavior. This \nincludes the risks of fraud, financial misstatements or manipulation, anti-competitive business practices, \nbribery, corruption, discrimination, and harassment in the workplace.'),
- Document(id='0fd313a1-2089-4796-bafe-e3ec7ec724e6', metadata={'company': 'adidas', 'year': 2023}, page_content='Currency risks are a direct result of multi-\ncurrency cash flows within the company, in particular the mismatch of the currencies required for \nsourcing our products versus the denominations of our sales. Furthermore, translation impacts from the \nconversion of non-euro-denominated results into the company’s functional currency, the euro, might lead \nto a material negative impact on our company’s financial performance. In addition, substantial changes in \nthe regulatory environment such as trade restrictions (e.g., concerning the US and China, or the EU and \nChina), economic and political sanctions, regulations concerning product compliance, social aspects, \nhuman rights, environmental, and climate protection regulations could lead to potential sales shortfalls or \ncost increases. ► SEE NOTE 28 \nTo mitigate these macroeconomic, sociopolitical, and regulatory risks, adidas strives to balance sales \nacross key regions and also between developed and emerging markets. We continuously monitor the \nmacroeconomic, political, and regulatory landscape in all our key markets to anticipate potential problem \nareas, so that we can quickly adjust our business activities accordingly upon any change in conditions.')]</pre>
+                    <div class="jp-OutputArea-child">
+                      <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+                      <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+                        <pre>Document 0: This framework applies to all adidas businesses worldwide and also sets our expectations of third-party business partners for managing personal information for or on behalf of adidas. Our Global Pr ...
+
+Document 1: To reduce supplier dependency, the company follows a strategy of diversification. In this context, adidas works with a broad network of suppliers in different countries and, for the vast majority of ...
+
+Document 2: Currency risks are a direct result of multi-currency cash flows within the company, in particular the mismatch of the currencies required for sourcing our products versus the denominations of our sa ...
+
+</pre>
                       </div>
                     </div>
                   </div>
@@ -9142,28 +9211,24 @@ take and is linked to the company's liquidity targets.</pre>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <section>
-            <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-              <div class="jp-Cell-inputWrapper" tabindex="0">
-                <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-                </div>
-                <div class="jp-InputArea jp-Cell-inputArea">
-                  <div class="jp-InputPrompt jp-InputArea-prompt">
+              <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+                <div class="jp-Cell-inputWrapper" tabindex="0">
+                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
-                  <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <p>We have now developed the core element of the RAG part of our Risk Agent, i.e. the vector store holding context-aware vectors of the DAX 40 companies' annual
-                      reports.</p>
-                    <p>In the next section, we make use of the vector store by integrating it into an agentic workflow which is capable to decide whether to query the vector store
-                      or search on the web to provide a meaningful answer to any user query.</p>
+                  <div class="jp-InputArea jp-Cell-inputArea">
+                    <div class="jp-InputPrompt jp-InputArea-prompt">
+                    </div>
+                    <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+                      <p>We have now developed the core element of the RAG part of our Risk Agent, i.e. the vector store holding context-aware vectors of the DAX 40 companies'
+                        annual reports.</p>
+                      <p>In the next section, we make use of the vector store by integrating it into an agentic workflow which is capable to decide whether to query the vector
+                        store or search on the web to provide a meaningful answer to any user query.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-        </section>
-        <section>
           <section>
             <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
               <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -9173,7 +9238,8 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h3 id="Extend-to-a-graph-based-agent">Extend to a graph-based agent<a class="anchor-link" href="#Extend-to-a-graph-based-agent">¶</a></h3>
+                    <h3 id="-Extend-to-a-graph-based-agent"><a id="toc4_2_"></a> Extend to a graph-based agent<a class="anchor-link" href="#-Extend-to-a-graph-based-agent">¶</a>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -9303,7 +9369,7 @@ take and is linked to the company's liquidity targets.</pre>
                       <li>and optionally OpenAI if you want to use a GPT model as LLM.</li>
                     </ul>
                     <p>If you do not want to use OpenAI's pay-as-you-go LLMs, the default will be Meta's open source and free of charge model Llama 3.1. Note however, that you need
-                      to have installed Ollama on your local machine to work with the free Llama models (see <a href="#prerequisites">Prerequisites</a>).</p>
+                      to have installed Ollama on your local machine to work with the free Llama models.</p>
                   </div>
                 </div>
               </div>
@@ -9314,7 +9380,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9353,34 +9419,21 @@ take and is linked to the company's liquidity targets.</pre>
               </div>
             </div>
             <div class="fragment">
-              <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+              <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
                 <div class="jp-Cell-inputWrapper" tabindex="0">
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
                           <pre><span></span><span class="c1"># LLM</span>
 <span class="kn">from</span> <span class="nn">util</span> <span class="kn">import</span> <span class="n">get_llm_model</span>
 
-<span class="n">llm</span> <span class="o">=</span> <span class="n">get_llm_model</span><span class="p">(</span><span class="n">llm_type</span><span class="o">=</span><span class="s2">"ollama"</span><span class="p">,</span> <span class="n">model_name</span><span class="o">=</span><span class="s2">"llama3.1:8b"</span><span class="p">)</span>                    <span class="c1"># If you want to experiment with OpenAI models change llm_type to "openai" and model_name to "gpt-4o-mini", for example.</span>
+<span class="n">llm</span> <span class="o">=</span> <span class="n">get_llm_model</span><span class="p">(</span><span class="n">llm_type</span><span class="o">=</span><span class="s2">"ollama"</span><span class="p">,</span> <span class="n">model_name</span><span class="o">=</span><span class="s2">"llama3.1:8b"</span><span class="p">)</span>                                <span class="c1"># If you want to experiment with OpenAI models change llm_type to "openai" and model_name to "gpt-4o-mini", for example.</span>
 </pre>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="jp-Cell-outputWrapper">
-                  <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-                  </div>
-                  <div class="jp-OutputArea jp-Cell-outputArea">
-                    <div class="jp-OutputArea-child">
-                      <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-                      <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-                        <pre>llama3.1:8b model loaded.
-</pre>
                       </div>
                     </div>
                   </div>
@@ -9409,7 +9462,7 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9430,11 +9483,11 @@ take and is linked to the company's liquidity targets.</pre>
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
-                          <pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">answer</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+                          <pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">answer</span><span class="o">.</span><span class="n">content</span><span class="p">[:</span><span class="mi">200</span><span class="p">],</span> <span class="s2">"..."</span><span class="p">)</span>
 </pre>
                         </div>
                       </div>
@@ -9448,25 +9501,7 @@ take and is linked to the company's liquidity targets.</pre>
                     <div class="jp-OutputArea-child">
                       <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
                       <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-                        <pre>The impact of climate change on the business model of Adidas, like many other companies, is multifaceted and can be analyzed through several key areas:
-
-1. **Supply Chain Vulnerabilities**: Climate change can disrupt supply chains due to extreme weather events, such as floods, droughts, and hurricanes. For Adidas, this could mean delays in production, increased costs, and challenges in sourcing materials. The company may need to diversify its supply chain or invest in more resilient logistics to mitigate these risks.
-
-2. **Sustainable Materials and Production**: As consumers become more environmentally conscious, there is increasing demand for sustainable products. Adidas has already begun to incorporate recycled materials and sustainable practices into its production processes. Climate change pressures may accelerate this shift, pushing the company to innovate further in sustainable materials, such as bio-based plastics and organic cotton.
-
-3. **Regulatory Changes**: Governments worldwide are implementing stricter regulations to combat climate change, which can affect manufacturing processes, emissions standards, and waste management. Adidas may need to invest in compliance and adapt its business practices to meet these regulations, potentially increasing operational costs.
-
-4. **Consumer Preferences**: As awareness of climate change grows, consumers are increasingly favoring brands that demonstrate environmental responsibility. Adidas may need to enhance its marketing strategies to highlight its sustainability efforts and ensure that its products align with consumer values, which could influence pricing and product development.
-
-5. **Brand Reputation and Risk Management**: Climate change poses reputational risks for brands that are perceived as not taking action. Adidas may need to proactively communicate its sustainability initiatives and engage in corporate social responsibility efforts to maintain a positive brand image and customer loyalty.
-
-6. **Innovation and Product Development**: Climate change can drive innovation in product design and technology. Adidas may invest in research and development to create more sustainable products, such as shoes made from ocean plastic or biodegradable materials. This could open new market opportunities and differentiate the brand in a competitive landscape.
-
-7. **Financial Implications**: The financial impact of climate change can manifest through increased costs related to raw materials, energy, and compliance. Adidas may need to reassess its pricing strategies and financial planning to account for these potential increases.
-
-8. **Collaboration and Partnerships**: To address climate change effectively, Adidas may seek partnerships with NGOs, governments, and other businesses to share knowledge, resources, and best practices. Collaborative efforts can enhance the company's sustainability initiatives and amplify its impact.
-
-In summary, climate change presents both challenges and opportunities for Adidas. The company will need to adapt its business model to address these impacts, focusing on sustainability, innovation, and resilience to remain competitive in a changing market.
+                        <pre>Climate change has a significant impact on the business model of companies like Adidas, influencing various aspects of their operations, strategy, and market positioning. Here are some key areas where ...
 </pre>
                       </div>
                     </div>
@@ -9495,7 +9530,7 @@ In summary, climate change presents both challenges and opportunities for Adidas
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9532,7 +9567,7 @@ In summary, climate change presents both challenges and opportunities for Adidas
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9553,7 +9588,7 @@ In summary, climate change presents both challenges and opportunities for Adidas
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9573,9 +9608,9 @@ In summary, climate change presents both challenges and opportunities for Adidas
                     <div class="jp-OutputArea-child">
                       <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
                       <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-                        <pre>Source: https://www.adidas-group.com/en/sustainability/planet/climate-change-and-decarbonization 
+                        <pre>Source: https://www.hermes-investment.com/wp-content/uploads/2022/02/eos-adidas-case-study-february-2022-1.pdf 
 ---
-Content:  sports brand, we acknowledge our role and are committed to reducing our environmental impact. We are adapting our business, reducing our own operations footprint and driving innovation - all with the ambition to mitigate our impact on the climate. ...
+Content: eded to address climate change and environmental impacts of apparel and footwear. We will continue ...
 </pre>
                       </div>
                     </div>
@@ -9655,7 +9690,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9759,7 +9794,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9768,12 +9803,12 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
 <span class="kn">from</span> <span class="nn">langgraph.graph</span> <span class="kn">import</span> <span class="n">MessagesState</span>
 
 <span class="k">class</span> <span class="nc">OverallState</span><span class="p">(</span><span class="n">MessagesState</span><span class="p">):</span>
-    <span class="n">topic</span><span class="p">:</span> <span class="n">Topic</span>                                                                <span class="c1"># topic of the user query including a boolean flag if it is related to DAX 40 companies and the description of the topic (see above)</span>
-    <span class="n">companies</span><span class="p">:</span> <span class="n">Companies</span>                                                        <span class="c1"># list of DAX 40 companies that are mentioned in the user query</span>
-    <span class="n">context</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">]</span>                                 <span class="c1"># list of contextual information for each company retrieved from the vector store or the web</span>
-    <span class="n">context_amount</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">]</span>                          <span class="c1"># list of context retrieved for each company (number of documents)</span>
-    <span class="n">context_count</span><span class="p">:</span> <span class="nb">int</span>                                                          <span class="c1"># overall number of context information retrieved across all companies                            </span>
-    <span class="n">final_answer</span><span class="p">:</span> <span class="nb">str</span>                                                           <span class="c1"># final answer to the user query generated by the LLM</span>
+    <span class="n">topic</span><span class="p">:</span> <span class="n">Topic</span>                                                                                    <span class="c1"># topic of the user query including a boolean flag if it is related to DAX 40 companies and the description of the topic (see above)</span>
+    <span class="n">companies</span><span class="p">:</span> <span class="n">Companies</span>                                                                            <span class="c1"># list of DAX 40 companies that are mentioned in the user query</span>
+    <span class="n">context</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">]</span>                                                     <span class="c1"># list of contextual information for each company retrieved from the vector store or the web</span>
+    <span class="n">context_amount</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">]</span>                                              <span class="c1"># list of context retrieved for each company (number of documents)</span>
+    <span class="n">context_count</span><span class="p">:</span> <span class="nb">int</span>                                                                              <span class="c1"># overall number of context information retrieved across all companies                            </span>
+    <span class="n">final_answer</span><span class="p">:</span> <span class="nb">str</span>                                                                               <span class="c1"># final answer to the user query generated by the LLM</span>
 </pre>
                         </div>
                       </div>
@@ -9804,13 +9839,13 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
                           <pre><span></span><span class="k">class</span> <span class="nc">AnnualReportState</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-    <span class="n">company</span><span class="p">:</span> <span class="n">Company</span>                                                             <span class="c1"># Company for which the context is retrieved from its annual report                            </span>
-    <span class="n">context_report</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">]</span>                           <span class="c1"># Context retrieved from the annual report</span>
+    <span class="n">company</span><span class="p">:</span> <span class="n">Company</span>                                                                                <span class="c1"># Company for which the context is retrieved from its annual report                            </span>
+    <span class="n">context_report</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">operator</span><span class="o">.</span><span class="n">add</span><span class="p">]</span>                                              <span class="c1"># Context retrieved from the annual report</span>
 </pre>
                         </div>
                       </div>
@@ -9818,8 +9853,6 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="fragment">
               <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
                 <div class="jp-Cell-inputWrapper" tabindex="0">
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9846,7 +9879,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Extract-topic">Extract topic<a class="anchor-link" href="#Extract-topic">¶</a></h4>
+                    <h4 id="-Extract-topic"><a id="toc4_2_1_"></a> Extract topic<a class="anchor-link" href="#-Extract-topic">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -9891,7 +9924,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -9947,7 +9980,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10006,7 +10039,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10045,7 +10078,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Extract-companies">Extract companies<a class="anchor-link" href="#Extract-companies">¶</a></h4>
+                    <h4 id="-Extract-companies"><a id="toc4_2_2_"></a> Extract companies<a class="anchor-link" href="#-Extract-companies">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -10072,7 +10105,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10142,16 +10175,17 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                 </div>
               </div>
             </div>
-            <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-              <div class="jp-Cell-inputWrapper" tabindex="0">
-                <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-                </div>
-                <div class="jp-InputArea jp-Cell-inputArea">
-                  <div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
-                  <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-                    <div class="cm-editor cm-s-jupyter">
-                      <div class="highlight hl-ipython3">
-                        <pre><span></span><span class="n">company_extraction_instruction</span> <span class="o">=</span> <span class="s2">"""You are tasked with analyzing whether the following </span>
+            <div class="fragment">
+              <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+                <div class="jp-Cell-inputWrapper" tabindex="0">
+                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                  </div>
+                  <div class="jp-InputArea jp-Cell-inputArea">
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+                    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+                      <div class="cm-editor cm-s-jupyter">
+                        <div class="highlight hl-ipython3">
+                          <pre><span></span><span class="n">company_extraction_instruction</span> <span class="o">=</span> <span class="s2">"""You are tasked with analyzing whether the following </span>
 <span class="s2">user query relates to any specific DAX 40 companies: </span><span class="si">{message}</span><span class="s2">.</span>
 
 <span class="s2">If you find specific DAX 40 companies mentioned in the user query, </span>
@@ -10161,6 +10195,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
 <span class="s2">that is not related to any specific company.</span>
 <span class="s2">"""</span>
 </pre>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -10188,7 +10223,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10276,7 +10311,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Retrieve-context">Retrieve context<a class="anchor-link" href="#Retrieve-context">¶</a></h4>
+                    <h4 id="-Retrieve-context"><a id="toc4_2_3_"></a> Retrieve context<a class="anchor-link" href="#-Retrieve-context">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -10337,7 +10372,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10377,7 +10412,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10434,16 +10469,17 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                 </div>
               </div>
             </div>
-            <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-              <div class="jp-Cell-inputWrapper" tabindex="0">
-                <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-                </div>
-                <div class="jp-InputArea jp-Cell-inputArea">
-                  <div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
-                  <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-                    <div class="cm-editor cm-s-jupyter">
-                      <div class="highlight hl-ipython3">
-                        <pre><span></span><span class="k">def</span> <span class="nf">count_context_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">OverallState</span><span class="p">):</span>
+            <div class="fragment">
+              <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+                <div class="jp-Cell-inputWrapper" tabindex="0">
+                  <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                  </div>
+                  <div class="jp-InputArea jp-Cell-inputArea">
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+                    <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+                      <div class="cm-editor cm-s-jupyter">
+                        <div class="highlight hl-ipython3">
+                          <pre><span></span><span class="k">def</span> <span class="nf">count_context_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">OverallState</span><span class="p">):</span>
 
     <span class="n">context_amount</span> <span class="o">=</span> <span class="n">state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'context_amount'</span><span class="p">)</span>
     <span class="n">state</span><span class="p">[</span><span class="s1">'context_count'</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">context_amount</span><span class="p">)</span>
@@ -10459,6 +10495,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
     <span class="k">else</span><span class="p">:</span>
         <span class="k">return</span> <span class="s2">"relevant-context-found"</span>
 </pre>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -10486,7 +10523,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10523,7 +10560,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Generate-answer">Generate answer<a class="anchor-link" href="#Generate-answer">¶</a></h4>
+                    <h4 id="-Generate-answer"><a id="toc4_2_4_"></a> Generate answer<a class="anchor-link" href="#-Generate-answer">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -10566,7 +10603,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10611,7 +10648,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10646,7 +10683,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h4 id="Build-the-graph">Build the graph<a class="anchor-link" href="#Build-the-graph">¶</a></h4>
+                    <h4 id="-Build-the-graph"><a id="toc4_2_5_"></a> Build the graph<a class="anchor-link" href="#-Build-the-graph">¶</a></h4>
                   </div>
                 </div>
               </div>
@@ -10672,7 +10709,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10728,7 +10765,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10782,7 +10819,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10801,7 +10838,7 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
                   <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                   </div>
                   <div class="jp-InputArea jp-Cell-inputArea">
-                    <div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+                    <div class="jp-InputPrompt jp-InputArea-prompt">In [85]:</div>
                     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                       <div class="cm-editor cm-s-jupyter">
                         <div class="highlight hl-ipython3">
@@ -10827,12 +10864,18 @@ Content:  sports brand, we acknowledge our role and are committed to reducing ou
 -----------------
 
 Graph events:
-{'extract_topic': {'topic': Topic(dax_40_related=False, topic='')}}
-{'off_topic_response': {'final_answer': 'Your query is not concerned about DAX 40 companies and therefore off topic within the context of this agent.'}}
+1. Node: extract_topic
+    State: topic
+        Content: dax_40_related=False topic='' ...
+2. Node: off_topic_response
+    State: final_answer
+        Content: Your query is not concerned about DAX 40 companies 
+    and therefore off topic within the context of this agent. ...
 
 -----------------
 
-Answer: Your query is not concerned about DAX 40 companies and therefore off topic within the context of this agent.
+Answer: Your query is not concerned about DAX 40 companies 
+    and therefore off topic within the context of this agent. ...
 </pre>
                       </div>
                     </div>
@@ -10847,7 +10890,7 @@ Answer: Your query is not concerned about DAX 40 companies and therefore off top
                 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                 </div>
                 <div class="jp-InputArea jp-Cell-inputArea">
-                  <div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+                  <div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div>
                   <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                     <div class="cm-editor cm-s-jupyter">
                       <div class="highlight hl-ipython3">
@@ -10873,20 +10916,28 @@ Answer: Your query is not concerned about DAX 40 companies and therefore off top
 -----------------
 
 Graph events:
-{'extract_topic': {'topic': Topic(dax_40_related=True, topic='climate-related risks')}}
-{'extract_companies': {'companies': [Company(name='adidas'), Company(name='bmw')]}}
-{'rag_agent': {'context_report': [Document(id='07512924-8d4b-40ef-b846-9dfa66092443', metadata={'company': 'adidas', 'year': 2023}, page_content='Climate scenario analysis confirmed our previous findings that the overall global greenhouse gas emission \nlevels will be an important factor influencing the magnitude of risks and opportunities. Moreover, these \nrisks and opportunities will gain relevance for our business, especially in the medium to long term.   \nWe have categorized climate-related risks and opportunities following the ‘Task Force on Climate-Related \nFinancial Disclosures’ (‘TCFD’) framework. Given the different time horizons and complexity of climate-\nrelated risks and opportunities, the overview is presented separately from the illustration of risks and \nopportunities in this Risk and Opportunity Report.\u202fWe do not expect this to result in any additional major \nrisks and opportunities for the forecast for the 2024 fiscal year compared to the explanations given in the \nRisk and Opportunity Report. \nPhysical risks  \n─ Physical damage and business disruption in our own or our business partners’ properties: Extreme \nweather events and changes in the overall weather patterns could increasingly lead to damages to \nowned or business partners’ properties (such as office buildings, distribution centers, and retail \nstores) and inventories, as well as business disruptions.')], 'context': ['The annual report of adidas provides information about climate-related risks, specifically highlighting the physical risks associated with extreme weather events and changes in overall weather patterns. These risks include potential damage to owned or business partners’ properties, such as office buildings, distribution centers, and retail stores, as well as disruptions to business operations. The report emphasizes that these climate-related risks and opportunities will become increasingly relevant for the business, particularly in the medium to long term, and categorizes them according to the TCFD framework. However, it notes that no major additional risks or opportunities are expected for the forecast of the 2024 fiscal year compared to previous assessments.'], 'context_amount': [1]}}
-{'rag_agent': {'context_report': [Document(id='98eaf969-33dd-4ac8-b975-662454b3b3ca', metadata={'company': 'bmw', 'year': 2023}, page_content='Moreover, oth er \noverarching topics are monitored by means of regular media \nanalysis. Any material reputational repercussions are described \nin the section ↗ Material Short-Term Risks and Opportunities. \nClimate-related risks \nRisks associated with climate change are presented in the sec-\ntion ↗ Climate-Related Risks and Opportunities. Climate-related risks are \nevaluated as physical and transitory risks in accordance with the \nrecommendations of the Task Force on Climate-related Finan-\ncial Disclosures (TCFD). Transitory risks arise from the transition \nto a low-carbon economy and are evaluated with the help of cli-\nmate-related risk drivers and qualitative expert assessments. \nPhysical risks arise due to climate change and are evaluated us-\ning external data on potential natural hazards. Potential short -\nterm impacts of climate change are already included in the short-\nterm risks. All short-term risks are evaluated for their climate im-\npact. If a risk is categorised as climate -relevant, the climate-re-\nlated portion of the risk is determined.'), Document(id='56e22e0b-e192-42c8-a91d-b8dcb1ce3ad9', metadata={'company': 'bmw', 'year': 2023}, page_content='Regulatory re-\nquirements introduced at short notice may enter into force, which \ncould have an impact on products, production and supply chains. \nIn the “Market and competition” risk dimension, risks may also \nincrease due to higher demand and the resulting higher prices for \nselect (scarce) raw materials on the one hand and due to rising \nenergy prices on the other. \nTransitory climate risks \n \nPhysical climate risks \nIn addition to the transitory risks, the BMW Group also evaluates \nphysical risks. In doing so, the increasing frequency and intensity \nof acute extreme weather events, such as heatwaves, storms \nand floods, are taken into account, along with longer-term \nchanges such as in terms of temperature and rainfall. \nIn order to measure such risks, we draw on external data that \nevaluate the development of acute and persistent natural phe-\nnomena across the global warming scenarios and across time. \nFor the BMW Group, this may result in damage to assets such as \nbuildings, vehicles or parts on the one hand, and on the other \nhand, such events may lead to downtime at BMW Group sites or \nat suppliers’ sites.')], 'context': ['The annual report of BMW provides a comprehensive overview of climate-related risks, categorizing them into transitory and physical risks in line with the recommendations of the Task Force on Climate-related Financial Disclosures (TCFD). Transitory risks are associated with the transition to a low-carbon economy and are assessed through climate-related risk drivers and expert evaluations. These risks may arise from sudden regulatory changes that could impact products, production, and supply chains, as well as from increased demand and rising prices for scarce raw materials and energy.\n\nOn the other hand, physical climate risks are evaluated based on the increasing frequency and intensity of extreme weather events, such as heatwaves, storms, and floods, as well as long-term changes in temperature and rainfall patterns. The BMW Group utilizes external data to assess these risks, which could lead to damage to assets and potential downtime at both BMW Group and supplier sites. Overall, the report highlights the importance of understanding and managing these climate-related risks to ensure the resilience and sustainability of the company.'], 'context_amount': [2]}}
-{'count_context': {'context_count': np.int64(3)}}
-{'generate_answer': {'final_answer': 'Adidas faces climate-related risks primarily from physical threats associated with extreme weather events and changing weather patterns. These risks could damage properties like office buildings and distribution centers, disrupt business operations, and are expected to become more significant in the medium to long term. However, no major new risks are anticipated for the 2024 fiscal year.\n\nBMW categorizes its climate-related risks into transitory and physical risks. Transitory risks stem from the transition to a low-carbon economy, including regulatory changes affecting products and supply chains, as well as rising costs for raw materials and energy. Physical risks involve the increasing frequency of extreme weather events and long-term climate changes, which could damage assets and disrupt operations at both BMW and its suppliers. The company emphasizes the need to manage these risks for resilience and sustainability. \n\nBoth companies are part of the DAX 40 index, highlighting their significance in the German economy.'}}
+1. Node: extract_topic
+    State: topic
+        Content: dax_40_related=True topic='climate-related risks' ...
+2. Node: extract_companies
+    State: companies
+        Content: [Company(name='adidas'), Company(name='bmw')] ...
+3. Node: rag_agent
+    State: context_report
+        Content: [Document(id='07512924-8d4b-40ef-b846-9dfa66092443', metadata={'company': 'adidas', 'year': 2023}, page_content='Climate scenario analysis confirmed our previous findings that the overall global green ...
+4. Node: rag_agent
+    State: context_report
+        Content: [Document(id='98eaf969-33dd-4ac8-b975-662454b3b3ca', metadata={'company': 'bmw', 'year': 2023}, page_content='Moreover, oth er \noverarching topics are monitored by means of regular media \nanalysis.  ...
+5. Node: count_context
+    State: context_count
+        Content: 3 ...
+6. Node: generate_answer
+    State: final_answer
+        Content: Adidas and BMW, both DAX 40 companies, face climate-related risks that are categorized using the Task Force on Climate-Related Financial Disclosures (TCFD) framework. For Adidas, the primary concern i ...
 
 -----------------
 
-Answer: Adidas faces climate-related risks primarily from physical threats associated with extreme weather events and changing weather patterns. These risks could damage properties like office buildings and distribution centers, disrupt business operations, and are expected to become more significant in the medium to long term. However, no major new risks are anticipated for the 2024 fiscal year.
-
-BMW categorizes its climate-related risks into transitory and physical risks. Transitory risks stem from the transition to a low-carbon economy, including regulatory changes affecting products and supply chains, as well as rising costs for raw materials and energy. Physical risks involve the increasing frequency of extreme weather events and long-term climate changes, which could damage assets and disrupt operations at both BMW and its suppliers. The company emphasizes the need to manage these risks for resilience and sustainability. 
-
-Both companies are part of the DAX 40 index, highlighting their significance in the German economy.
+Answer: Adidas and BMW, both DAX 40 companies, face climate-related risks that are categorized using the Task Force on Climate-Related Financial Disclosures (TCFD) framework. For Adidas, the primary concern i ...
 </pre>
                     </div>
                   </div>
@@ -10900,7 +10951,7 @@ Both companies are part of the DAX 40 index, highlighting their significance in 
                 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
                 </div>
                 <div class="jp-InputArea jp-Cell-inputArea">
-                  <div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+                  <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
                   <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
                     <div class="cm-editor cm-s-jupyter">
                       <div class="highlight hl-ipython3">
@@ -10926,61 +10977,139 @@ Both companies are part of the DAX 40 index, highlighting their significance in 
 -----------------
 
 Graph events:
-{'extract_topic': {'topic': Topic(dax_40_related=True, topic='risks corporations face due to climate change')}}
-{'extract_companies': {'companies': None}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of adidas does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of allianz does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of basf does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of bayer does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of beiersdorf does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of bmw does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of commerzbank does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of continental does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of daimler-truck does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of deutsche-bank does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of deutsche-börse does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of deutsche-post does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of deutsche telekom does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of fresenius does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of fresenius-medical-care does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of hannover-rück does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of infineon-technologies does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of mercedes-benz does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of merck does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of mtu does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of münchener-rück does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of porsche does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of rwe does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of sap does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of siemens does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of sartorius does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of siemens-healthineers does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of symrise does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of volkswagen does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [], 'context': ["The annual report of zalando does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [0]}}
-{'rag_agent': {'context_report': [Document(id='0539a183-d04a-493c-94d9-665f873afd26', metadata={'company': 'brenntag', 'year': 2023}, page_content='87\nNfR, p. 108\n133\nAnnual Report 2023 Brenntag SE\nAPPENDIX\nTO OUR  \nSHAREHOLDERS\nREMUNERATION \nREPORT\nMANAGEMENT \nREPORT\nCONSOLIDATED \nFINANCIAL STATEMENTS\nFURTHER \nINFORMATION\nNON-FINANCIAL \nREPORT\nRisk Management\nTCFD core element Required information\nReference to CDP\nClimate Change 2023 \nQuestionnaire\nDisclosure of processes for  \nidentifying, assessing, and managing \nclimate-related risks\na)  Processes for identifying and assessing climate-related \nrisks\nC2.1\nC2.2\nC2.2a\nb)  Processes for managing climate-related risks C2.1\nC2.2\nc)  Integration of processes for identifying, assessing,  \nand managing climate-related risks into overall  \nrisk management\nC2.1\nC2.2\nYou can find further information here: NfR, p. 108\nManagement Report, p.')], 'context': ["The annual report of Brenntag does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [1]}}
-{'rag_agent': {'context_report': [Document(id='eced9aab-f5ec-401d-957e-6ffb3b4cd26f', metadata={'company': 'eon', 'year': 2023}, page_content='Risk \nand sustainability managers at the units were actively involved in \nthis process. The status of this process is presented to the E.ON \nGroup Risk Committee on a regular basis. Our analyses of climate \nrisks encompass physical risks (such as extreme weather and \nrising temperatures) as well as transitional risks (such as changes \nin consumer preferences, the regulatory environment, and carbon \npricing). The Risks and Chances Report contains additional \ninformation. \nMetrics and Targets \nE.ON’s current climate metrics consist mainly of the emission \nfigures for its carbon footprint categories (Scope 1, 2, and 3) and \nthe measurement of progress toward its climate targets (see \nabove). The climate targets defined in 2020 remain valid (see \nClimate Protection chapter). We monitor progress toward these \ntargets on an annual basis for all relevant GHG categories. The \naforementioned carbon management plan apportions our \nemission-reduction targets to the business units, while giving \nthem the operational decision-making authority on how to achieve \nthem.  \nIn addition, E.ON discloses avoided emissions.'), Document(id='27aa5ea6-ae48-4798-b23a-6e2b11622dee', metadata={'company': 'eon', 'year': 2023}, page_content='At year-end 2023, E.ON had not identified any major risks related \nto its own business activities and business relationships as well as \nproducts and services pursuant to Section 289c, Paragraph 3, \nSentence 1, Items 3 and 4 of the HGB that are very likely to have \nor will have serious negative impacts on ESG aspects. \nE.ON places an emphasis on analyzing its climate risks, in part \nbecause of E.ON’s support of the recommendations of the Task \nForce on Climate-Related Financial Disclosures (“TCFD“). \nSafeguarding its assets against climate-change impacts and the \nclimate resilience of its business model are economically relevant \nto E.ON. Our analysis therefore includes both physical risks (direct \nimpacts of climate change, such as extreme weather and rising \ntemperatures) and transitory risks resulting from the transition to \na low-carbon and more climate-resilient economy (such as \nchanges in consumer preferences, the regulatory environment, and \ncarbon pricing).')], 'context': ["The annual report of E.ON does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [2]}}
-{'rag_agent': {'context_report': [Document(id='bfcc7a04-a93c-4932-a884-26c8bd1db34f', metadata={'company': 'qiagen', 'year': 2023}, page_content='C2.3, C2.3b, C2.4, C2.4a\nImpact of climate-related risks and opportunities on the organization’s business, strategy and financial \nplanning\nC2.3, C2.3b, C 2.4, C2.4a, C3.1, C3.3, C3.4\nResilience of the organization’s strategy, taking into consideration different climate-related scenarios, \nincluding a 2°C or lower scenario\nC3.1, C3.2, C3.2a, C3.2b\nRisk Management Organization’s processes for identifying and assessing climate-related risks C2.1, C2.1a, C2.1b, C2.2, C2.2a\nOrganization’s processes for managing climate related risks C2.2, C2.2a\nHow processes for identifying, assessing and managing climate-related risks are integrated into the \norganization’s overall risk management\nC2.2, C2.')], 'context': ["The annual report of Qiagen does not provide any information about the topic 'risks corporations face due to climate change'."], 'context_amount': [1]}}
-{'rag_agent': {'context_report': [Document(id='c932e3b7-b53e-4f53-bc63-1311ce5f962a', metadata={'company': 'henkel', 'year': 2023}, page_content='We assign the highest pr iority to the health and safety of our customers, \nconsumers and employees.  \nLong-term risks arise in particular from accelerated climate change, water scarcity and restrictions on disposable \nand, in particular, non-recyclable plastic packaging and product ingredients.\nHENKEL ANNUAL REPORT 2023  194\nTHE COMPANY  \nSHARES AND BONDS \nCOMBINED MANAGEMENT \nREPORT \nCONSOLIDATED FINANCIAL \nSTATEMENTS  \nFURTHER INFORMATION  \nCREDITS  \nCONTACTS  \nFINANCIAL CALENDAR \nAccelerating climate change could have negative impacts on a wide range of countries, particularly through \nincreases in the frequency and severity of extreme weather events. In addition to physical risks, this develop-\nment may also give rise to socioeconomic, so-called “transition” risks, for example as a result of political \nmeasures such as regulations and taxes. A more detailed discussion of relevant potential climate-related risks \ncan be found in our Sustainability Report 2023 on pages 36 and 37. The information is aligned to the recom-\nmendations of the Task Force on Climate-related Financial Disclosures (TCFD).')], 'context': ['The annual report of Henkel does provide information about the risks corporations face due to climate change. It highlights that accelerated climate change poses long-term risks, particularly through increased frequency and severity of extreme weather events. These physical risks can lead to significant operational disruptions and impact supply chains. Additionally, the report mentions socioeconomic "transition" risks arising from political measures such as regulations and taxes aimed at addressing climate change. Henkel emphasizes the importance of prioritizing health and safety while navigating these challenges, and further details can be found in their Sustainability Report 2023, which aligns with the recommendations of the Task Force on Climate-related Financial Disclosures (TCFD).'], 'context_amount': [1]}}
-{'rag_agent': {'context_report': [Document(id='b61f95c0-02ac-47d7-8202-51d170329783', metadata={'company': 'heidelberg-materials', 'year': 2023}, page_content='Describe the board’s oversight of climate-related risks \nand\xa0\u2003opp\nortunities \n CDP\tQuestionnaire  ( C1.1.a, C1.1b)  \nPages\u20031\n2–18,\u20031\n17,\u20031\n47–151,\u20031\n72–174\nDescribe management’s role in assessing and managing \nclimate- re\nlated risks and opportunities  \n CDP\tQuestionnaire  (C 1.2) \nPages 12–13, 24, 117, 147–151\nStrategy\nDisclosure focus area : Disclose the actual and potential impacts of climate-related risks and opportunities on the organisation’s \n\u2003bu\nsinesses,\u2003s\ntrategy,\u2003a\nnd\u2003fi\nnancial\u2003p\nlanning\u2003w\nhere\u2003s\nuch\u2003i\nnformation\u2003i\ns\u2003m\naterial.\nWe give careful consideration to the risks and opportunities of \nclimate change for our industry.'), Document(id='73360fed-4339-46e6-ab4f-ed9f4ec71e10', metadata={'company': 'heidelberg-materials', 'year': 2023}, page_content='The risks arising from such climate-related \nclaims could be high, but cannot be estimated in more \ndetail\u2003at\u2003pr esent,\u2003gi ven\u2003th e\u2003wi de\u2003va riety\u2003of\u2003po tential\u2003\ncourses of such claims. As such, the risk assessment \nis\xa0unchanged \u2003co mpared\u2003wi th\u2003th e\u2003pr evious\u2003ye ar.\u2003We\u2003\n currently consider the risk of climate-related claims to \nbe\u2003l\now.\nSustainability and compliance risks\nAs part of its sustainable corporate governance, \nHeidelberg Materials makes a special commitment to \nprotect the environment and climate, preserve resourc -\nes, conserve biodiversity, and act in a socially respon -\nsible\u2003wa\ny.\u2003Co\nmpliance\u2003wi\nth\u2003ap\nplicable\u2003la\nw\u2003an\nd\u2003Gr\noup\u2003\nregulations is a part of our corporate culture and there -\nfore a task and an obligation for all employees.')], 'context': ["The annual report of Heidelberg Materials does not provide specific information about the topic 'risks corporations face due to climate change.' While it mentions the board's oversight of climate-related risks and opportunities, as well as management's role in assessing and managing these risks, it does not detail the actual and potential impacts of climate-related risks on the organization’s business, strategy, and financial planning. The report indicates that the risks from climate-related claims are currently considered low, but it does not elaborate on the broader spectrum of climate-related risks that corporations may face. Additionally, while the company emphasizes its commitment to sustainability and compliance, it does not quantify or specify the risks associated with climate change in detail."], 'context_amount': [2]}}
-{'rag_agent': {'context_report': [Document(id='d4ceda9f-5aad-4648-b0f7-888bd541714a', metadata={'company': 'rheinmetall', 'year': 2023}, page_content='To \nidentify and better assess risks from climate change more reliably, Rheinmetall carried out a comprehensive site-\nspecific assessment on its production sites again in the year under review using database content from a \nrenowned service provider in accordance with the parameters of the Task Forc e on Climate -related Financial \nDisclosure. In addition, a scenario analysis using parameters from the Intergovernmental Panel on Climate Change \n(IPCC) was already carried out for these production sites in the previous year for the historical, 2045 and 2070  \nperiods, thereby analyzing the sites’ exposure to physical risks in four different global warming scenarios. We are\nLetter to shareholders Combined management report Consolidated financial statement Further information \n Risks and opportunities   \n Significant corporate risks   \nRHEINMETALL ANNUAL REPORT 2023 101 \nmaking a contribution to prevention with some of our products in civil business sectors and by successively \nreducing our CO2 emissions as part of energy and carbon management. We have set ourselves the ambitious goal \nof being carbon neutral by 2035.'), Document(id='9c3e5732-5d26-40c5-b246-70b97828c394', metadata={'company': 'rheinmetall', 'year': 2023}, page_content='The organization aims to establish the management of greenhouse \ngas emissions as a key economic success and risk factor in companies. Each year, on behalf of more than 500 \ninstitutional investors, the CDP collects information on corporate strategies to combat climate change and \ncompany-specific greenhouse emissions. In the Climate Change Questionnaire, alongside questions on the \norganization, targets, projects and programs, companies are surveyed in respect to information about risks and \nopportunities of climate changes and measures in the area of climate protection. Rhe inmetall again took part in \nthe CDP’s demanding sustainability rating in the year under review and improved its score from “D” to “B,” which \nis above the industry average (score C). \nTCFD \nThe four-pillar framework of the TCFD of the G20 Financial Stability Board helps companies both in integrating the \nopportunities and mitigating the risks of climate change into their business and in reporting on them consistently. \nPhysical risks result from long -term changes of climatic and ecological conditions (e.g.')], 'context': ["The annual report of Rheinmetall provides insights into the risks corporations face due to climate change, particularly through their comprehensive site-specific assessments and scenario analyses. These assessments, conducted in accordance with the Task Force on Climate-related Financial Disclosure (TCFD) parameters, help identify and evaluate physical risks associated with climate change at their production sites. By analyzing exposure to various global warming scenarios, Rheinmetall aims to understand the long-term impacts of climate change on their operations.\n\nAdditionally, the report highlights the importance of managing greenhouse gas emissions as a critical economic success and risk factor. Rheinmetall's participation in the CDP's sustainability rating and their improvement in score indicates a proactive approach to addressing climate-related risks and opportunities. The company is also committed to reducing CO2 emissions and achieving carbon neutrality by 2035, which reflects their recognition of climate change as a significant risk that requires strategic management.\n\nOverall, Rheinmetall's efforts to assess and mitigate climate-related risks demonstrate their awareness of the potential impacts of climate change on their business and their commitment to sustainability."], 'context_amount': [2]}}
-{'rag_agent': {'context_report': [Document(id='26bbbcb9-15d8-4e16-85cf-7a3e2af847e2', metadata={'company': 'airbus', 'year': 2023}, page_content='1.2.1 the Company’s \napproach to sustainability\n1.2.2 Climate change\nC1.1a, C1.1b, C1.1d\nDescribe management’s role in assessing and \nmanaging climate-related risks and opportunities C1.2\nStrategy\nDescribe the climate-related risks and opportunities \nthe organisation has identified over the short, medium, \nand long term\nRisk Factors\xa0– Environment, \nHuman Rights, Health &amp; \nSafety Risks\n1.2.2 Climate Change\nsee the “Notes to the IFRS \nConsolidated Financial \nStatements” (Note\xa03: \nClimate impacts)\nC2.3, C2.3a, C2.4, C2.4a\nDescribe the impact of climate-related risks and \nopportunities on the organisation’s businesses, \nstrategy, and financial planning.'), Document(id='82910dd3-248a-4c5d-be1a-55e446ebca71', metadata={'company': 'airbus', 'year': 2023}, page_content='If the ambition is perceived as unattainable or if \nthe Company is not able to deliver on its ambition, this could \nresult in reputational damage leading to less investment, loss of \nrevenues and reduced attractiveness. A similar situation could \noccur if the Company’s environmental performance is not on \npar with its expressed ambition.\nPhysical\xa0– Acute:  Extreme weather events may impact \nthe\xa0Company’s products and its operations\nThe foreseen consequences of climate change include more \nfrequent extreme weather events, such as drought, dust storms, \nextreme temperatures, extreme winds, flood, hail storms, \nlandslides, hurricanes, tornadoes, cyclones and wildfires. \nThese could negatively impact the Company’s products and \nits operations (including but not limited to route delays and safe \naircraft operations), land assets and infrastructure as well as \nemployees’ safety (and people’s safety generally).\nThe above consequences and impacts may result in production \nor other operational disruptions leading to lost revenues, \nreduced profits, and losses.')], 'context': ["The annual report of Airbus outlines several climate-related risks that the corporation faces, which can significantly impact its operations, strategy, and financial planning. Key risks include:\n\n1. **Reputational Risks**: If Airbus's sustainability ambitions are perceived as unattainable or if the company fails to meet its environmental performance goals, it could suffer reputational damage. This could lead to decreased investment, loss of revenues, and a diminished attractiveness to stakeholders.\n\n2. **Physical Risks**: The company is vulnerable to acute physical risks associated with climate change, such as extreme weather events. These events—ranging from droughts and floods to hurricanes and wildfires—can disrupt operations, affect product safety, and compromise employee safety. Such disruptions may result in production delays, operational inefficiencies, and ultimately, financial losses.\n\n3. **Operational Disruptions**: The anticipated increase in extreme weather events could lead to significant operational challenges, including route delays and safety concerns for aircraft operations. This could further exacerbate financial impacts through lost revenues and reduced profits.\n\nOverall, Airbus recognizes that climate change poses both risks and opportunities, and management plays a crucial role in assessing and addressing these challenges to ensure the company's long-term sustainability and resilience."], 'context_amount': [2]}}
-{'rag_agent': {'context_report': [Document(id='4c22ee62-360d-43bb-a296-b47e2bae3afe', metadata={'company': 'vonovia', 'year': 2023}, page_content='We have assessed the corre-\nsponding ”risk of business continuity in disasters/crisis \nsituations” as being associated with an amount of loss of \n€\xa05–40\xa0million (2022: €\xa05–40\xa0million) and a probability of \noccurrence of 5–39% (2022: 5–39%). To allow us to analyze \nand assess potential long-term implications of climate \nchange (i.e., those extending beyond the usual risk manage-\nment observation period of five years), we have developed a \nclimate risk tool that maps the internationally recognized \nclimate change scenarios developed by the Intergovernmen-\ntal Panel on Climate Change (IPCC).\u2009\nTransition risks and physical climate risks could potentially \nhave a negative impact on the Group’s net assets, financial \nposition and results of operations and could make the \nestimates used in an accounting context less certain.'), Document(id='6748518c-e112-48f1-ac7d-a4d26d8cd021', metadata={'company': 'vonovia', 'year': 2023}, page_content='Additional estimates and assumptions mainly relate to the \nuniform definition of useful lives, the assumptions made on \nthe value of land and buildings, the recognition and mea-\nsurement of provisions as well as the realization of future tax \nbenefits.\nClimate risks have an impact on  Vonovia’s business model \nand strategy. They are addressed in particular by the climate \npath that the company has mapped out, but also by appro-\npriate estimates and assumptions in key items of the com-\npany’s net assets, financial position and results of opera-\ntions. Climate risks can have a potentially negative impact \nand result in increased estimation uncertainties.\nPhysical climate risks refer to longer-term shifts in general \nclimatic conditions. Climate events such as floods, earth-\nquakes, extreme weather events, etc. \u2009could have an impact \non our real estate portfolio and require specific crisis man-\nagement measures. Climate transition risks describe the \neffects that can arise for companies due to the process of \ntransformation towards a more sustainable economic \nsystem.')], 'context': ["The annual report of Vonovia provides insights into the risks corporations face due to climate change, highlighting both physical and transition risks. Physical climate risks, such as floods, earthquakes, and extreme weather events, pose a threat to the company's real estate portfolio and necessitate specific crisis management measures. These risks are assessed with a potential loss of €5–40 million and a probability of occurrence between 5–39%. \n\nOn the other hand, transition risks arise from the shift towards a more sustainable economic system, which could negatively impact the Group’s net assets, financial position, and operational results. The report emphasizes that these climate risks can lead to increased estimation uncertainties in accounting, affecting assumptions related to the useful lives of assets, land and building values, and the realization of future tax benefits.\n\nTo address these challenges, Vonovia has developed a climate risk tool that aligns with the climate change scenarios established by the Intergovernmental Panel on Climate Change (IPCC). This proactive approach aims to mitigate the long-term implications of climate change on the company's business model and strategy."], 'context_amount': [2]}}
-{'rag_agent': {'context_report': [Document(id='9da8de84-a625-43ac-a82d-603d1012da12', metadata={'company': 'siemens-energy', 'year': 2023}, page_content='Annual Report 2023: \n•  Risk Management* \n \nGroup Non-Financial Statement \n2023: \n•  Basis of Preparation \n \n(* covering only short-term \nclimate related risks) \nSustainability Report 2023: \n• Strategic focus \n• Annex - Task Force on Climate -\nRelated Financial Disclosures \n(TCFD) (see Climate Change \nGovernance, Management \napproach to climate-related risks \nand opportunities) \n \nStrategy \n \nDisclose the actual and potential \nimpacts of climate-related risks \nand opportunities on the organi-\nzation’s businesses, strategy, and \nfinancial planning where such in-\nformation is material. \na. Describe the climate-re-\nlated risks and opportuni-\nties the organization has \nidentified over the short, \nmedium, and long term.'), Document(id='83a709d5-d22d-4199-9710-e665f30ecdbf', metadata={'company': 'siemens-energy', 'year': 2023}, page_content='Such \ninvestigations may also adversely affect existing private business \nrelationships and our ability to pursue potentially important strategic \nprojects and transactions, such as strategic alliances, jo int ventures or \nother business alliances. In addition, third parties, including our compe-\ntitors, could initiate significant litigation. Furthermore, we might be \nexposed to compliance risks in relation to recently acquired operations \nthat are in the proces s of integration. Along with other measures, we \nhave a state -of-the-art global compliance organization in place to \nmitigate these risks, which conducts, among other things, compliance \nrisk mitigation processes such as comprehensive compliance trainings, \ncompliance risk assessments, and internal audit activities. \nClimate-related risks \nClimate change and decarbonization trend - The impacts of climate \nchange might have significant effects on our company throughout the \nentire value chain, such as markets, technologies, policy and legal, \nreputation, as well as climate -related physical impacts (e.g., from \nincreasing extreme weather events) on our sites, portfolio or supply \nchains. These changes will be gradual over several years or decades.')], 'context': ["The annual report of Siemens Energy outlines several climate-related risks that corporations face due to climate change. These risks can be categorized into various areas:\n\n1. **Market Risks**: The transition towards decarbonization and changing market dynamics can significantly impact Siemens Energy's business operations and market positioning. As consumer preferences shift towards sustainable solutions, the company must adapt to remain competitive.\n\n2. **Technological Risks**: The need for innovation in response to climate change may require substantial investment in new technologies. Failure to keep pace with technological advancements could hinder the company's ability to meet market demands.\n\n3. **Policy and Legal Risks**: As governments implement stricter regulations to combat climate change, Siemens Energy may face compliance risks, particularly in relation to recently acquired operations. Non-compliance could lead to legal challenges and financial penalties.\n\n4. **Reputational Risks**: The company's commitment to sustainability and climate action is crucial for maintaining its reputation. Any perceived failure to address climate-related issues could damage relationships with stakeholders, including customers and investors.\n\n5. **Physical Risks**: Climate change can lead to extreme weather events that may disrupt operations, affect supply chains, and damage infrastructure. These physical impacts pose a direct threat to the company's assets and operational continuity.\n\nOverall, Siemens Energy recognizes that climate-related risks are multifaceted and can have significant implications for its strategy, financial planning, and overall business resilience. The company is actively working to identify and mitigate these risks through a comprehensive risk management approach."], 'context_amount': [2]}}
-{'count_context': {'context_count': np.int64(15)}}
-{'generate_answer': {'final_answer': 'Corporations face several risks due to climate change, which can be categorized into physical, transition, and reputational risks:\n\n1. **Physical Risks**: These include acute risks from extreme weather events (e.g., floods, droughts, hurricanes) that can disrupt operations, damage infrastructure, and affect supply chains.\n\n2. **Transition Risks**: As the economy shifts towards sustainability, companies may face regulatory changes, market dynamics, and technological advancements that require adaptation. This includes compliance with stricter environmental regulations and the need for innovation.\n\n3. **Reputational Risks**: Companies risk damage to their reputation if they fail to meet sustainability goals or are perceived as not addressing climate-related issues adequately, which can impact stakeholder relationships and investment.\n\nSpecific examples from DAX 40 companies include Airbus, which highlights operational disruptions and reputational risks, and Siemens Energy, which outlines market, technological, policy, and physical risks. Vonovia also addresses both physical and transition risks related to its real estate portfolio.'}}
+1. Node: extract_topic
+    State: topic
+        Content: dax_40_related=True topic='risks due to climate change' ...
+2. Node: extract_companies
+    State: companies
+        Content: None ...
+3. Node: rag_agent
+    State: context_report
+        Content: [] ...
+4. Node: rag_agent
+    State: context_report
+        Content: [] ...
+5. Node: rag_agent
+    State: context_report
+        Content: [] ...
+6. Node: rag_agent
+    State: context_report
+        Content: [] ...
+7. Node: rag_agent
+    State: context_report
+        Content: [] ...
+8. Node: rag_agent
+    State: context_report
+        Content: [] ...
+9. Node: rag_agent
+    State: context_report
+        Content: [] ...
+10. Node: rag_agent
+    State: context_report
+        Content: [] ...
+11. Node: rag_agent
+    State: context_report
+        Content: [] ...
+12. Node: rag_agent
+    State: context_report
+        Content: [] ...
+13. Node: rag_agent
+    State: context_report
+        Content: [] ...
+14. Node: rag_agent
+    State: context_report
+        Content: [] ...
+15. Node: rag_agent
+    State: context_report
+        Content: [] ...
+16. Node: rag_agent
+    State: context_report
+        Content: [] ...
+17. Node: rag_agent
+    State: context_report
+        Content: [] ...
+18. Node: rag_agent
+    State: context_report
+        Content: [] ...
+19. Node: rag_agent
+    State: context_report
+        Content: [] ...
+20. Node: rag_agent
+    State: context_report
+        Content: [] ...
+21. Node: rag_agent
+    State: context_report
+        Content: [] ...
+22. Node: rag_agent
+    State: context_report
+        Content: [] ...
+23. Node: rag_agent
+    State: context_report
+        Content: [] ...
+24. Node: rag_agent
+    State: context_report
+        Content: [] ...
+25. Node: rag_agent
+    State: context_report
+        Content: [] ...
+26. Node: rag_agent
+    State: context_report
+        Content: [] ...
+27. Node: rag_agent
+    State: context_report
+        Content: [] ...
+28. Node: rag_agent
+    State: context_report
+        Content: [] ...
+29. Node: rag_agent
+    State: context_report
+        Content: [Document(id='74ee6118-bbc5-48c0-9a08-b2f46cc729a0', metadata={'company': 'heidelberg-materials', 'year': 2023}, page_content='Climate risks\nAccording\u2003to\u2003th e\u2003de finition\u2003is sued\ ...
+30. Node: rag_agent
+    State: context_report
+        Content: [] ...
+31. Node: rag_agent
+    State: context_report
+        Content: [Document(id='fd40cc22-5b82-4da0-8e91-ba92132de1ff', metadata={'company': 'merck', 'year': 2023}, page_content='For example, physical climate risks can have an accounting impact in the form of the nec ...
+32. Node: rag_agent
+    State: context_report
+        Content: [Document(id='98eaf969-33dd-4ac8-b975-662454b3b3ca', metadata={'company': 'bmw', 'year': 2023}, page_content='Moreover, oth er \noverarching topics are monitored by means of regular media \nanalysis.  ...
+33. Node: rag_agent
+    State: context_report
+        Content: [Document(id='c932e3b7-b53e-4f53-bc63-1311ce5f962a', metadata={'company': 'henkel', 'year': 2023}, page_content='We assign the highest pr iority to the health and safety of our customers, \nconsumers  ...
+34. Node: rag_agent
+    State: context_report
+        Content: [Document(id='8cbce804-ed41-450c-b530-e3adafa8313c', metadata={'company': 'rwe', 'year': 2023}, page_content='Since 2022, we have taken a systematic approach at Group level to criteria under objective ...
+35. Node: rag_agent
+    State: context_report
+        Content: [Document(id='27aa5ea6-ae48-4798-b23a-6e2b11622dee', metadata={'company': 'eon', 'year': 2023}, page_content='At year-end 2023, E.ON had not identified any major risks related \nto its own business ac ...
+36. Node: rag_agent
+    State: context_report
+        Content: [Document(id='ecd31dde-19d7-40de-83bf-382754d09c5e', metadata={'company': 'basf', 'year': 2023}, page_content='We \ncounter these risks with our carbon management measures and by \ntransparently discl ...
+37. Node: rag_agent
+    State: context_report
+        Content: [Document(id='f0d6c726-146e-4940-9150-080c87a09826', metadata={'company': 'münchener-rück', 'year': 2023}, page_content='Physical risks arise from the increasing frequency \nand severity of extreme we ...
+38. Node: rag_agent
+    State: context_report
+        Content: [Document(id='b39afa58-f4d2-48fa-a994-5a94400ac032', metadata={'company': 'deutsche-post', 'year': 2023}, page_content='This involved applying the Representative Concentration Pathways \n(RCPs) of the ...
+39. Node: rag_agent
+    State: context_report
+        Content: [Document(id='5a3898bb-9112-484f-a265-63dc31079e52', metadata={'company': 'airbus', 'year': 2023}, page_content='In 2023 the Company invested more than €40\xa0million in \ncompanies and partnerships ( ...
+40. Node: rag_agent
+    State: context_report
+        Content: [Document(id='4c22ee62-360d-43bb-a296-b47e2bae3afe', metadata={'company': 'vonovia', 'year': 2023}, page_content='We have assessed the corre-\nsponding ”risk of business continuity in disasters/crisis ...
+41. Node: rag_agent
+    State: context_report
+        Content: [Document(id='8c7f4a5f-f314-4844-bd8c-8a695ba4dc37', metadata={'company': 'commerzbank', 'year': 2023}, page_content='As a major financier of the German economy, we are also active \nin sectors that a ...
+42. Node: count_context
+    State: context_count
+        Content: 16 ...
+43. Node: generate_answer
+    State: final_answer
+        Content: Corporations face several risks due to climate change, which can be categorized into physical and transition risks. Physical risks include acute and chronic impacts such as extreme weather events, ris ...
 
 -----------------
 
-Answer: Corporations face several risks due to climate change, which can be categorized into physical, transition, and reputational risks:
-
-1. **Physical Risks**: These include acute risks from extreme weather events (e.g., floods, droughts, hurricanes) that can disrupt operations, damage infrastructure, and affect supply chains.
-
-2. **Transition Risks**: As the economy shifts towards sustainability, companies may face regulatory changes, market dynamics, and technological advancements that require adaptation. This includes compliance with stricter environmental regulations and the need for innovation.
-
-3. **Reputational Risks**: Companies risk damage to their reputation if they fail to meet sustainability goals or are perceived as not addressing climate-related issues adequately, which can impact stakeholder relationships and investment.
-
-Specific examples from DAX 40 companies include Airbus, which highlights operational disruptions and reputational risks, and Siemens Energy, which outlines market, technological, policy, and physical risks. Vonovia also addresses both physical and transition risks related to its real estate portfolio.
+Answer: Corporations face several risks due to climate change, which can be categorized into physical and transition risks. Physical risks include acute and chronic impacts such as extreme weather events, ris ...
 </pre>
                     </div>
                   </div>
@@ -10997,7 +11126,7 @@ Specific examples from DAX 40 companies include Airbus, which highlights operati
                   <div class="jp-InputPrompt jp-InputArea-prompt">
                   </div>
                   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-                    <h3 id="Deployment">Deployment<a class="anchor-link" href="#Deployment">¶</a></h3>
+                    <h3 id="-Deployment"><a id="toc4_3_"></a> Deployment<a class="anchor-link" href="#-Deployment">¶</a></h3>
                   </div>
                 </div>
               </div>
@@ -11054,6 +11183,21 @@ Specific examples from DAX 40 companies include Airbus, which highlights operati
               </div>
             </div>
           </section>
+          <section>
+            <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+              <div class="jp-Cell-inputWrapper" tabindex="0">
+                <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+                </div>
+                <div class="jp-InputArea jp-Cell-inputArea">
+                  <div class="jp-InputPrompt jp-InputArea-prompt">
+                  </div>
+                  <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+                    <p><img alt="LangGraph" src="img/langgraph.gif" /></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     </div>
@@ -11077,11 +11221,12 @@ Specific examples from DAX 40 companies include Airbus, which highlights operati
         controls: true,
         progress: true,
         history: true,
-        transition: "convex",
+        transition: "slide",
+        slideNumber: "c/t",
         plugins: [RevealNotes],
-        width: 960,
-        height: 700,
-        slideNumber: 'c/t'
+        width: 1100,
+        height: 950,
+
       });
 
       var update = function (event) {
